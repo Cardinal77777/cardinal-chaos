@@ -14,7 +14,8 @@
         "images.g.ts",
         "tutorial.custom.ts",
         "pxt.json",
-        "_history"
+        "_history",
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "test.ts"
