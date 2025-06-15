@@ -15,6 +15,7 @@ scene.setBackgroundImage(sprites.background.cityscape2)
 let Cardinal = sprites.create(assets.image`Mama`, SpriteKind.Player)
 controller.moveOnlyOnscreenWithArrows(Cardinal, controller.Speeds.Fast)
 scroller.scrollBackgroundWithSpeed(-50, 0)
+music.play(music.createSong(assets.song`t`), music.PlaybackMode.UntilDone)
 info.startCountdown(15)
 animation.runImageAnimation(
 Cardinal,
